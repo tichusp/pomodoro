@@ -1,0 +1,143 @@
+body {
+	background-color: #303030;
+	font-family: 'Courier New';
+	margin-top: 5%;
+}
+form {
+	font-size: 2em;
+}
+input {
+	width: 120px;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+	background-color: #CCC;
+}
+.inner {
+	background-color: #303030;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	-webkit-user-select: none;
+  -moz-user-select: none;     
+  -ms-user-select: none;      
+  user-select: none; 
+	user-select: none;
+	
+	border-radius: 100%;
+	top:25px;
+	left:25px;
+	font-size: 73px;
+}
+
+.break {
+	box-shadow:inset 0px 0px 10px 10px #f00;
+		color: #f00;
+}
+
+.work {
+	box-shadow:inset 0px 0px 10px 10px #0F0;
+		color: #0F0;
+}
+
+.outter {
+	background-color:#303030;
+	height: 150px;
+	width:150px;
+	border-radius:50%;
+	position:relative;
+	left:25px;
+	bottom:25px;
+	cursor: pointer;
+}
+.outter-break {
+	box-shadow:inset 0px 0px 30px 10px red;
+}
+.outter-work {
+	box-shadow:inset 0px 0px 30px 10px green;
+}
+.outter::after {
+	  content: "";
+    position: absolute;
+    bottom: 98%;
+    left: 50%;
+    margin-left: -15px;
+    border-width: 15px;
+    border-style: solid;
+}
+.outter-break::after {
+	border-color: transparent transparent #d00 transparent;
+}
+.outter-work::after {
+	border-color: transparent transparent #070 transparent;
+}
+
+.clock {
+	line-height: 102px;
+	margin:12% auto;
+	height: 200px;
+	width:200px;
+	border-radius:50%;
+}
+.time {
+	position:relative;
+  font-size: 25px;
+	height: 10px;
+  width: 10px;
+	color: white;
+	-webkit-user-select: none;  
+  -moz-user-select: none;     
+  -ms-user-select: none;      
+  user-select: none; 
+	cursor: pointer;
+}
+.zero{
+	bottom:37px;
+	left:93px;
+}
+.thirty {
+	left:84px;
+	top:-50px;
+}
+.fifteen {
+	left: 187px;
+	top: 30px;
+}
+.five {
+	left:143px;
+	top: -35px;
+}
+.ten {
+	top:-5px;
+	left:175px;
+}
+.twenty {
+	top:70px;
+	left:175px;
+}
+.twentyfive {
+	top:98px;
+	left:135px;
+}
+.thirtyfive {
+	left: 36px;
+	top: -72px;
+}
+.forty {
+	top: -119px;
+	left: -5px;
+}
+.fortyfive {
+	top: -178px;
+	left: -20px;
+}
+.fifty {
+	top: -233px;
+	left: -8px;
+}
+.fiftyfive {
+	top: -285px;
+	left: 31px;
+}
+
+

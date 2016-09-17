@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>pomodoro</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class='container'>
+		<div class='row'>
+			<div class='col-xs-1'></div>
+			<div class='col-xs-5 text-center text-success'>
+				<form id='workForm' name='workForm'>
+					Work Time:<br />
+					<input type='text' id='workInput' name='workInput' value='0'></input>
+				</form>
+			</div>
+			<div class='col-xs-5 text-center text-danger'>
+				<form id='breakForm' name='breakForm'>
+					Break Time:<br />
+					<input type='text' id='breakInput' name='breakInput' value='0'></input>
+				</form>
+			</div>
+			<div class='col-xs-1'></div>
+		</div>
+		<div class='row'>
+			<div class='col-sm-1'></div>
+			<div class='col-sm-5'>
+				<div id='clock1' class='clock'>
+					<div class='time zero'>0</div>
+					<div class='time five'>5</div>
+					<div class='time ten'>10</div>
+					<div class='time fifteen'>15</div>
+					<div class='time twenty'>20</div>
+					<div class='time twentyfive'>25</div>
+					<div class='outter outter-work'><div class='inner work text-center'>W</div></div>
+					<div class='time thirty'>30</div>
+					<div class='time thirtyfive'>35</div>
+					<div class='time forty'>40</div>
+					<div class='time fortyfive'>45</div>
+					<div class='time fifty'>50</div>
+					<div class='time fiftyfive'>55</div>
+				</div>
+			</div>
+			<div class=col-sm-5>
+				<div id='clock2' class='clock'>
+					<div class='time zero'>0</div>
+					<div class='time five'>5</div>
+					<div class='time ten'>10</div>
+					<div class='time fifteen'>15</div>
+					<div class='time twenty'>20</div>
+					<div class='time twentyfive'>25</div>
+					<div class='outter outter-break'><div class='inner break text-center'>B</div></div>
+					<div class='time thirty'>30</div>
+					<div class='time thirtyfive'>35</div>
+					<div class='time forty'>40</div>
+					<div class='time fortyfive'>45</div>
+					<div class='time fifty'>50</div>
+					<div class='time fiftyfive'>55</div>
+				</div>
+				<div class='col-sm-1'></div>
+			</div>
+		</div>
+		<div class="btn-group btn-group-justified">
+			<div class="btn-group">
+				<button type="button" id='start' class="btn btn-success">Start</button>
+			</div>
+			<div class="btn-group">
+				<button type="button" id='reset' class="btn btn-info">Reset</button>
+			</div>
+		</div>
+	</div>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
